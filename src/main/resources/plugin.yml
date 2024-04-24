@@ -1,0 +1,4 @@
+name: RedLightGreenLight
+version: '${project.version}'
+main: nl.jessicavdz.redlightgreenlight.RedLightGreenLight
+api-version: '1.20'
