@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="true" type="JarApplication">
+  <configuration default="false" name="Compile and start" type="JarApplication">
     <extension name="net.ashald.envfile">
       <option name="IS_ENABLED" value="false" />
       <option name="IS_SUBST" value="false" />
@@ -12,8 +12,12 @@
     </extension>
     <option name="JAR_PATH" value="$PROJECT_DIR$/server/paper-1.20.4-496.jar" />
     <option name="PROGRAM_PARAMETERS" value="nogui" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\server" />
     <option name="ALTERNATIVE_JRE_PATH" />
-    <method v="2" />
+    <method v="2">
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="RedLightGreenLight:jar" />
+      </option>
+    </method>
   </configuration>
 </component>
