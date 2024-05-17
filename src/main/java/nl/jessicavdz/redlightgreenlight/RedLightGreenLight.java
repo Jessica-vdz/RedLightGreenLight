@@ -13,8 +13,6 @@ public final class RedLightGreenLight extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new BlockBreakCancel(),this);
         getServer().getPluginManager().registerEvents(redLightBehavior, this);
-        redLightBehavior.light = false;
-
     }
 }
 

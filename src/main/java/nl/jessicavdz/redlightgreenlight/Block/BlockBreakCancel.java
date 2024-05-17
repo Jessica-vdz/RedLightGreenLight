@@ -11,7 +11,9 @@ public class BlockBreakCancel implements Listener {
 
     public void onBlockBreak(BlockBreakEvent event) {
         Player player = event.getPlayer();
-        if(player.isOp()) return;
-        event.setCancelled(true);
+
+        if (!(player.isOp())){
+            event.setCancelled(true);
+        }
     }
 }
